@@ -1,5 +1,5 @@
 <template>
-  <div id="main" class="bg-dark-gray h-screen w-screen">
+  <div id="main" class="bg-dark-gray h-screen w-screen overflow-hidden">
     <Header />
   </div>
 </template>
