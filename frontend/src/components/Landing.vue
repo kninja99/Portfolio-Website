@@ -10,13 +10,16 @@
       <!-- <h1>I build things through technology.</h1> -->
       <p class="text-dark-white text-base lg:text-lg">
         I'm a career motivated software engineer that is currently working on a
-        variety of projects with the Citrus Clonal Protection Program to
-        increase productivity of lab teams through technology. I am currently
+        variety of projects with the
+        <a class="text-light-blue underline"
+          >Citrus Clonal Protection Program</a
+        >
+        to increase productivity of lab teams through technology. I am currently
         seeking to enhance my technical knowledge and solve complex problems as
         a software engineer.
       </p>
       <button
-        class="text-light-blue border-solid border-2 border-light-blue p-2 rounded-2xl w-32 my-10"
+        class="text-light-blue border-solid border-2 border-light-blue p-2 rounded-2xl w-32 my-10 hover:animate-shadowPop"
       >
         Resume
       </button>

@@ -14,7 +14,25 @@ module.exports = {
       'light-blue': '#00b4d8',
       'btn-blue': '#0c4d62',
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        shadowPop: {
+          '0%': {
+            transform: 'translateX(0) translateY(0)',
+            boxShadow: '0 0 0 0 #00b4d8',
+          },
+          '100%': {
+            transform: 'translateX(-4px) translateY(-4px)',
+            boxShadow:
+              '1px 1px #00b4d8, 2px 2px #00b4d8, 3px 3px #00b4d8, 4px 4px #00b4d8',
+          },
+        },
+      },
+      animation: {
+        shadowPop:
+          'shadowPop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+      },
+    },
   },
   plugins: [],
 };
