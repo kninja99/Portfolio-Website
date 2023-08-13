@@ -1,5 +1,5 @@
 <template class="w-screen">
-  <div class="mt-32 mx-12 cursor-default flex flex-col items-center">
+  <div class="mt-20 sm:mt-32 mx-12 cursor-default flex flex-col items-center">
     <div class="max-w-3xl">
       <p class="text-light-blue text-xl md:text-3xl lg:text-4xl">
         Hi, my name is
