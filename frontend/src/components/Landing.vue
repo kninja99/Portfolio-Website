@@ -18,11 +18,13 @@
         seeking to enhance my technical knowledge and solve complex problems as
         a software engineer.
       </p>
-      <button
-        class="text-light-blue border-solid border-2 border-light-blue p-2 rounded-2xl w-32 my-10 hover:animate-shadowPop"
-      >
-        Resume
-      </button>
+      <a href="/resume" target="_blank">
+        <button
+          class="text-light-blue border-solid border-2 border-light-blue p-2 rounded-2xl w-32 my-10 hover:animate-shadowPop"
+        >
+          Resume
+        </button>
+      </a>
     </div>
   </div>
 </template>
