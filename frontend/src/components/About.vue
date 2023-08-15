@@ -39,16 +39,16 @@
           </ul>
         </div>
       </div>
-      <!-- photo section -->
+      <!-- photo section and photo border-->
       <div
-        class="w-3/4 sm:w-2/4 md:w-1/3 sm:ml-12 border-light-blue border-2 mt-5 lg:mt-32"
+        class="w-3/4 sm:w-2/4 md:w-1/3 sm:ml-12 border-light-blue border-2 mt-5 lg:mt-32 hover:animate-bgDrop"
       >
         <!-- img overlay -->
         <div
-          class="relative bg-gradient-to-tl from-light-blue to-dark-blue top-[-10px] left-[-12px]"
+          class="relative bg-gradient-to-tl from-light-blue to-dark-blue top-[-10px] left-[-12px] hover:bg-none"
         >
           <img
-            class="w-fill opacity-60 grayscale"
+            class="w-fill opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:animate-imgPop"
             src="../assets/imgs/Personal_Photo.jpg"
             alt="personal Photo"
           />
