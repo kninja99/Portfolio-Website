@@ -25,7 +25,7 @@
         <p class="mb-3">
           Here are a few technologies I've been working with recently:
         </p>
-        <div class="flex md:w-3/6 sm:justify-evenly">
+        <div class="flex w-fill sm:justify-evenly">
           <ul class="mx-1 my-2">
             <li>JavaScript (ES6+)</li>
             <li>Node.js</li>
@@ -41,14 +41,18 @@
       </div>
       <!-- photo section -->
       <div
-        class="sm:w-1/3 sm:ml-12 bg-gradient-to-tl from-light-blue to-dark-blue"
+        class="w-3/4 sm:w-2/4 md:w-1/3 sm:ml-12 border-light-blue border-2 mt-5 lg:mt-32"
       >
         <!-- img overlay -->
-        <img
-          class="w-fill opacity-60 grayscale"
-          src="../assets/imgs/Personal_Photo.jpg"
-          alt="personal Photo"
-        />
+        <div
+          class="relative bg-gradient-to-tl from-light-blue to-dark-blue top-[-10px] left-[-12px]"
+        >
+          <img
+            class="w-fill opacity-60 grayscale"
+            src="../assets/imgs/Personal_Photo.jpg"
+            alt="personal Photo"
+          />
+        </div>
       </div>
     </div>
   </div>
