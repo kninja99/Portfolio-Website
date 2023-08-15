@@ -9,3 +9,9 @@
 #app {
     font-family: 'Inter', sans-serif;
 }
+
+ul li:before {
+    content: "▹";
+    padding-right: 8px;
+    color: #00b4d8;
+}
