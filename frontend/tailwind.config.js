@@ -32,7 +32,7 @@ module.exports = {
             transform: 'translateX(0) translateY(0)',
           },
           '100%': {
-            transform: 'translateX(-6px) translateY(-6px)',
+            transform: 'translateX(-8px) translateY(-8px)',
           },
         },
         bgDrop: {
@@ -40,7 +40,7 @@ module.exports = {
             transform: 'translateX(0) translateY(0)',
           },
           '100%': {
-            transform: 'translateX(2px) translateY(2px)',
+            transform: 'translateX(4px) translateY(4px)',
           },
         },
       },
