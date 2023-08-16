@@ -3,6 +3,7 @@
     <Header />
     <Landing />
     <About />
+    <Work />
   </div>
 </template>
 
@@ -11,12 +12,14 @@
 import Header from '../components/Header.vue';
 import Landing from '../components/Landing.vue';
 import About from '../components/About.vue';
+import Work from '../components/Work.vue';
 export default {
   name: 'App',
   components: {
     Header,
     Landing,
     About,
+    Work,
   },
 };
 </script>
