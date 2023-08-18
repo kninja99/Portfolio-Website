@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "Title": "Full Stack Developer",
+      "Company": "Citrus Clonal Protection Program",
+      "startDate": "09/2022",
+      "endDate": "Present",
+      "Description": ["loreum ipsum", "loreum ipsum", "loreum ipsum"]
+    },
+    {
+      "Title": "Software Developer",
+      "Company": "ACM@UCR",
+      "startDate": "10/2022",
+      "endDate": "01/2023",
+      "Description": ["loreum ipsum", "loreum ipsum", "loreum ipsum"]
+    },
+    {
+      "Title": "Notary Clerk",
+      "Company": "ACM@UCR",
+      "startDate": "11/2019",
+      "endDate": "09/2022",
+      "Description": ["loreum ipsum", "loreum ipsum", "loreum ipsum"]
+    }
+  ]
+}
