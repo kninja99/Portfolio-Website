@@ -9,7 +9,7 @@
             <li
               v-for="(job, index) in jobs"
               :key="index"
-              class="text-white before:content-none w-max mb-4"
+              class="text-white before:content-none w-max cursor-pointer px-2 py-2 hover:bg-dark-white/10 hover:text-light-blue"
             >
               {{ job.Company }}
             </li>
@@ -20,28 +20,23 @@
           <!-- Company and Date -->
           <div class="text-white">
             <h3 class="text-lg">
-              Software Engineer <span class="text-light-blue">@ Company</span>
+              {{ jobs[selectedJob].Title }}
+              <span class="text-light-blue"
+                >@ {{ jobs[selectedJob].Company }}</span
+              >
             </h3>
-            <p class="mt-2">02/2019 - Present</p>
+            <p class="mt-2">
+              {{ jobs[selectedJob].startDate }} -
+              {{ jobs[selectedJob].endDate }}
+            </p>
           </div>
           <!-- Descriptions -->
           <div class="text-dark-white mt-4">
             <ul>
               <WorkBullet
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                minus magnam quaerat suscipit ex ab, et, sint molestiae, labore
-                eum aspernatur praesentium rem temporibus nulla deleniti fugit.
-                Porro quibusdam sint architecto impedit."
-              />
-              <WorkBullet
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-                optio aliquam commodi eligendi aperiam ad velit labore similique
-                et accusamus!"
-              />
-              <WorkBullet
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-                optio aliquam commodi eligendi aperiam ad velit labore similique
-                et accusamus!"
+                v-for="(description, index) in jobs[selectedJob].Description"
+                :key="index"
+                :description="description"
               />
             </ul>
           </div>
@@ -67,6 +62,7 @@ export default {
     return {
       // this is the data we imported from the json file
       jobs: jobData,
+      selectedJob: 0,
     };
   },
 };
