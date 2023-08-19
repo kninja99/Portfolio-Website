@@ -9,7 +9,13 @@
             <li
               v-for="(job, index) in jobs"
               :key="index"
-              class="text-white before:content-none w-max cursor-pointer px-2 py-2 hover:bg-dark-white/10 hover:text-light-blue"
+              class="before:content-none w-full cursor-pointer px-2 py-2"
+              :class="
+                selectedJob === index
+                  ? 'text-light-blue border-l-2 border-light-blue bg-white/[3%]'
+                  : 'text-white hover:bg-white/[3%] hover:text-light-blue'
+              "
+              @click="jobSelected(index)"
             >
               {{ job.Company }}
             </li>
@@ -64,6 +70,11 @@ export default {
       jobs: jobData,
       selectedJob: 0,
     };
+  },
+  methods: {
+    jobSelected(index) {
+      this.selectedJob = index;
+    },
   },
 };
 </script>
