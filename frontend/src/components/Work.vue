@@ -17,21 +17,22 @@
           <!-- Descriptions -->
           <div class="text-dark-white mt-4">
             <ul>
-              <li class="my-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+              <WorkBullet
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
                 minus magnam quaerat suscipit ex ab, et, sint molestiae, labore
                 eum aspernatur praesentium rem temporibus nulla deleniti fugit.
-                Porro quibusdam sint architecto impedit.
-              </li>
-              <li class="my-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                Porro quibusdam sint architecto impedit."
+              />
+              <WorkBullet
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
                 optio aliquam commodi eligendi aperiam ad velit labore similique
-                et accusamus!
-              </li>
-              <li class="my-2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Praesentium facere tempore quaerat quibusdam, quisquam ad!
-              </li>
+                et accusamus!"
+              />
+              <WorkBullet
+                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                optio aliquam commodi eligendi aperiam ad velit labore similique
+                et accusamus!"
+              />
             </ul>
           </div>
         </div>
@@ -42,6 +43,7 @@
 
 <script>
 import SectionHeader from './SectionHeader.vue';
+import WorkBullet from './WorkBullet.vue';
 // idealy we would get this data from a database or api
 // but for github pages we will use a json file
 import jobData from '../assets/Data/work.json';
@@ -49,6 +51,7 @@ export default {
   name: 'Work',
   components: {
     SectionHeader,
+    WorkBullet,
   },
   data() {
     return {
