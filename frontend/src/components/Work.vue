@@ -42,10 +42,18 @@
 
 <script>
 import SectionHeader from './SectionHeader.vue';
+// idealy we would get this data from a database or api
+// but for github pages we will use a json file
+import jobData from '../assets/Data/work.json';
 export default {
   name: 'Work',
   components: {
     SectionHeader,
+  },
+  data() {
+    return {
+      jobs: jobData,
+    };
   },
 };
 </script>
