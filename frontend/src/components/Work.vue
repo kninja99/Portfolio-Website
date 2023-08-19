@@ -1,10 +1,20 @@
 <template>
   <div class="mt-20 px-12 mb-10 w-screen flex flex-col items-center">
-    <div class="w-full max-w-xl">
+    <div class="w-full max-w-3xl">
       <SectionHeader title="My Experiance" />
-      <div class="mt-12">
+      <div class="mt-12 flex">
         <!-- Company list -->
-        <div></div>
+        <div class="mr-12">
+          <ul class="flex flex-col justify-between">
+            <li
+              v-for="(job, index) in jobs"
+              :key="index"
+              class="text-white before:content-none w-max mb-4"
+            >
+              {{ job.Company }}
+            </li>
+          </ul>
+        </div>
         <!-- Work Description -->
         <div>
           <!-- Company and Date -->
@@ -55,6 +65,7 @@ export default {
   },
   data() {
     return {
+      // this is the data we imported from the json file
       jobs: jobData,
     };
   },
