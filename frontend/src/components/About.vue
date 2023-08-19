@@ -6,7 +6,7 @@
       class="max-w-6xl flex flex-col md:flex-row items-center justify-center"
     >
       <!-- about section -->
-      <div class="w-2/3">
+      <div class="w-2/3 cursor-default">
         <SectionHeader title="About Me" />
         <p class="mb-3">
           Hello! I'm Kyle Damschen, an enthusiastic recent graduate with a

@@ -2,18 +2,18 @@
   <div class="mt-20 px-12 mb-10 w-screen flex flex-col items-center">
     <div class="w-full max-w-3xl">
       <SectionHeader title="My Experiance" />
-      <div class="mt-12 flex">
+      <div class="mt-12 flex justify-between">
         <!-- Company list -->
         <div class="mr-12">
-          <ul class="flex flex-col justify-between">
+          <ul class="flex flex-col justify-between w-max">
             <li
               v-for="(job, index) in jobs"
               :key="index"
-              class="before:content-none w-full cursor-pointer px-2 py-2"
+              class="before:content-none w-full cursor-pointer px-2 py-2 border-l-2 text-sm"
               :class="
                 selectedJob === index
-                  ? 'text-light-blue border-l-2 border-light-blue bg-white/[3%]'
-                  : 'text-white hover:bg-white/[3%] hover:text-light-blue'
+                  ? 'text-light-blue border-light-blue bg-white/[3%]'
+                  : 'text-white hover:bg-white/[3%] hover:text-light-blue border-white/[3%]'
               "
               @click="jobSelected(index)"
             >
@@ -22,7 +22,7 @@
           </ul>
         </div>
         <!-- Work Description -->
-        <div>
+        <div class="cursor-default">
           <!-- Company and Date -->
           <div class="text-white">
             <h3 class="text-lg">
