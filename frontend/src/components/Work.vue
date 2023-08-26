@@ -5,7 +5,7 @@
       <div class="mt-12 flex flex-col sm:flex-row justify-between">
         <!-- Company list -->
         <div class="sm:mr-12 overflow-x-auto sm:overflow-visible">
-          <ul class="flex mb-4 sm:flex-col justify-between w-max">
+          <ul class="flex mb-2 sm:flex-col justify-between w-max">
             <li
               v-for="(job, index) in jobs"
               :key="index"
@@ -22,7 +22,7 @@
           </ul>
         </div>
         <!-- Work Description -->
-        <div class="work-description cursor-default">
+        <div class="work-description cursor-default mt-4">
           <!-- Company and Date -->
           <div class="text-white">
             <h3 class="text-lg">
