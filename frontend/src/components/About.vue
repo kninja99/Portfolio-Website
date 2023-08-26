@@ -1,6 +1,6 @@
 <template>
   <div
-    class="text-dark-white flex flex-col mt-36 mx-12 items-center justify-center mb-12"
+    class="text-dark-white flex flex-col mt-36 sm:mx-12 items-center justify-center mb-12"
   >
     <div
       class="max-w-6xl flex flex-col md:flex-row items-center justify-center"

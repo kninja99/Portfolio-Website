@@ -2,10 +2,10 @@
   <div class="mt-20 px-12 mb-10 w-screen flex flex-col items-center">
     <div class="w-full max-w-3xl">
       <SectionHeader title="My Experiance" />
-      <div class="mt-12 flex justify-between">
+      <div class="mt-12 flex flex-col sm:flex-row justify-between">
         <!-- Company list -->
-        <div class="mr-12">
-          <ul class="flex flex-col justify-between w-max">
+        <div class="sm:mr-12 overflow-x-auto sm:overflow-visible">
+          <ul class="flex mb-4 sm:flex-col justify-between w-max">
             <li
               v-for="(job, index) in jobs"
               :key="index"
