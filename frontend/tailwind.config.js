@@ -43,12 +43,22 @@ module.exports = {
             transform: 'translateX(4px) translateY(4px)',
           },
         },
+        textFadeIn: {
+          '0%': {
+            opacity: 0,
+          },
+          '100%': {
+            opacity: 1,
+          },
+        },
       },
       animation: {
         shadowPop:
           'shadowPop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
         imgPop: 'imgPop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
         bgDrop: 'bgDrop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+        textFadeIn:
+          'textFadeIn .5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
       },
     },
   },

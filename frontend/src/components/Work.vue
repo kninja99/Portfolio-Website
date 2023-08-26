@@ -22,7 +22,7 @@
           </ul>
         </div>
         <!-- Work Description -->
-        <div class="cursor-default">
+        <div class="work-description cursor-default">
           <!-- Company and Date -->
           <div class="text-white">
             <h3 class="text-lg">
@@ -73,7 +73,14 @@ export default {
   },
   methods: {
     jobSelected(index) {
+      // toggling selected job
       this.selectedJob = index;
+      // animate work description (fade in)
+      const workDescription = document.querySelector('.work-description');
+      workDescription.classList.add('animate-textFadeIn');
+      setTimeout(() => {
+        workDescription.classList.remove('animate-textFadeIn');
+      }, 500);
     },
   },
 };
