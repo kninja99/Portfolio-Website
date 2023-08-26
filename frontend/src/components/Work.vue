@@ -9,7 +9,7 @@
             <li
               v-for="(job, index) in jobs"
               :key="index"
-              class="before:content-none w-full cursor-pointer px-2 py-2 border-l-2 text-sm"
+              class="before:content-none w-full cursor-pointer px-2 py-2 border-b-2 sm:border-b-0 sm:border-l-2 text-sm"
               :class="
                 selectedJob === index
                   ? 'text-light-blue border-light-blue bg-white/[3%]'
