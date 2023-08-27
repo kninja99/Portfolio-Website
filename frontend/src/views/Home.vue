@@ -4,6 +4,7 @@
     <Landing />
     <About />
     <Work />
+    <Projects />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Header from '../components/Header.vue';
 import Landing from '../components/Landing.vue';
 import About from '../components/About.vue';
 import Work from '../components/Work.vue';
+import Projects from '../components/Projects.vue';
 export default {
   name: 'App',
   components: {
@@ -20,6 +22,7 @@ export default {
     Landing,
     About,
     Work,
+    Projects,
   },
 };
 </script>
