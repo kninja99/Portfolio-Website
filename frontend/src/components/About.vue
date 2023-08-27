@@ -1,12 +1,12 @@
 <template>
   <div
-    class="text-dark-white flex flex-col mt-36 mx-12 items-center justify-center mb-12"
+    class="text-dark-white flex flex-col mt-36 sm:mx-12 items-center justify-center mb-12"
   >
     <div
       class="max-w-6xl flex flex-col md:flex-row items-center justify-center"
     >
       <!-- about section -->
-      <div class="w-2/3">
+      <div class="w-2/3 cursor-default">
         <SectionHeader title="About Me" />
         <p class="mb-3">
           Hello! I'm Kyle Damschen, an enthusiastic recent graduate with a
