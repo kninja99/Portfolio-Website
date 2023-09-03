@@ -26,7 +26,14 @@ export default {
     <div
       class="hidden my-12 px-10 py-5 md:block md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-1"
     >
-      <img class="object-cover md:h-[100%] md:w-auto" :src="img" />
+      <div
+        class="relative bg-gradient-to-tl from-light-blue to-dark-blue hover:cursor-pointer"
+      >
+        <img
+          class="object-cover md:h-[100%] md:w-auto opacity-50 animate-fadeOut hover:animate-fadeIn"
+          :src="img"
+        />
+      </div>
     </div>
     <!-- Project Details Container -->
     <div
@@ -37,7 +44,7 @@ export default {
         <h2 class="text-xl">Project Name</h2>
       </div>
       <!-- Project description -->
-      <div>
+      <div class="md:z-10">
         <p
           class="md:bg-project-black md:p-5 md:bg-opacity-80 md:text-right md:text-sm"
         >
