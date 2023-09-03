@@ -13,6 +13,7 @@ module.exports = {
       'dark-blue': '#093a4a',
       'light-blue': '#00b4d8',
       'btn-blue': '#0c4d62',
+      'project-black': '#0c0c0d',
     },
     extend: {
       keyframes: {
