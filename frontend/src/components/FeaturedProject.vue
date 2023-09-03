@@ -46,7 +46,7 @@ export default {
       <!-- Project description -->
       <div class="md:z-10">
         <p
-          class="md:bg-project-black md:p-5 md:bg-opacity-80 md:text-right md:text-sm"
+          class="md:bg-project-black md:p-5 md:bg-opacity-80 md:text-right md:text-sm md:rounded-md"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
           ducimus, commodi cupiditate ipsam ad nisi, expedita voluptates
