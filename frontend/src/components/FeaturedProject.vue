@@ -22,7 +22,7 @@ export default {
     class="bg-center bg-no-repeat bg-cover"
     :style="{ backgroundImage: `url(${img})` }"
   >
-    <div class="text-white my-12 px-10 py-5 bg-card-overlay">
+    <div class="text-white my-12 px-10 py-5 bg-dark-blue bg-opacity-60">
       <div class="my-4">
         <h3 class="text-light-blue mb-2">Featured Project</h3>
         <h2 class="text-xl">Project Name</h2>
