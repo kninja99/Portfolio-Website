@@ -35,13 +35,13 @@ export default {
 <template>
   <!-- Project card container (background for mobile devices render here) -->
   <div
-    class="bg-center bg-no-repeat bg-cover md:!bg-none md:grid md:grid-cols-5 md:grid-rows-1"
+    class="bg-center bg-no-repeat bg-cover my-12 md:!bg-none md:grid md:grid-cols-5 md:grid-rows-1"
     :style="{ backgroundImage: `url(./imgs/${img})` }"
   >
     <!-- project img container -->
     <!-- change row start and end based off index -->
     <div
-      class="hidden my-12 px-10 py-5 md:block md:row-start-1 md:row-end-1"
+      class="hidden my-12 px-10 py-5 md:my-0 md:px-0 md:py-0 md:block md:row-start-1 md:row-end-1"
       :class="
         this.index % 2 === 0
           ? 'md:col-start-1 md:col-end-4'
@@ -59,7 +59,7 @@ export default {
     </div>
     <!-- Project Details Container -->
     <div
-      class="text-white flex flex-col justify-center my-12 px-10 py-5 bg-dark-blue bg-opacity-60 md:row-start-1 md:row-end-1 md:bg-opacity-0 md:p-0 md:py-6 hover:cursor-default"
+      class="text-white flex flex-col justify-center my-12 px-10 py-5 md:my-0 md:px-0 md:py-0 bg-dark-blue bg-opacity-60 md:row-start-1 md:row-end-1 md:bg-opacity-0 md:p-0 md:py-6 hover:cursor-default"
       :class="
         this.index % 2 === 0
           ? 'md:col-start-3 md:col-end-6 md:items-end md:text-right'
@@ -73,7 +73,7 @@ export default {
       <!-- Project description -->
       <div class="md:z-10">
         <p
-          class="md:bg-project-black md:p-5 md:bg-opacity-90 md:text-sm md:rounded-md md:shadow-[6px_6px_10px_#000]"
+          class="text-sm md:bg-project-black md:p-5 md:bg-opacity-90 md:rounded-md md:shadow-[6px_6px_10px_#000]"
         >
           {{ description }}
         </p>
