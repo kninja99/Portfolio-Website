@@ -6,6 +6,18 @@ export default {
       type: String,
       required: true,
     },
+    description: {
+      type: String,
+      required: true,
+    },
+    skills: {
+      type: Array,
+      required: true,
+    },
+    title: {
+      type: String,
+      required: true,
+    },
   },
   data() {
     return {
@@ -40,27 +52,22 @@ export default {
     >
       <div class="my-4">
         <h3 class="text-light-blue mb-2">Featured Project</h3>
-        <h2 class="text-xl">Project Name</h2>
+        <h2 class="text-xl">{{ title }}</h2>
       </div>
       <!-- Project description -->
       <div class="md:z-10">
         <p
           class="md:bg-project-black md:p-5 md:bg-opacity-80 md:text-right md:text-sm md:rounded-md"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          ducimus, commodi cupiditate ipsam ad nisi, expedita voluptates
-          corporis maiores cumque, consequatur tenetur et! Tempore, expedita
-          ipsa dignissimos illum cumque in iste optio eveniet debitis ad maiores
-          pariatur aspernatur, blanditiis magnam.
+          {{ description }}
         </p>
       </div>
       <!-- Project skills -->
-      <ul class="list-none flex flex-wrap text-sm mt-8">
-        <li class="m-2">HTML</li>
-        <li class="m-2">CSS</li>
-        <li class="m-2">JavaScript</li>
-        <li class="m-2">MSSQL</li>
-        <li class="m-2">C++</li>
+      <ul class="list-none flex flex-wrap text-sm mt-4 z-10">
+        <!-- create a li for each skill in skills prop -->
+        <li v-for="(skill, index) in skills" :key="index" class="m-2">
+          {{ skill }}
+        </li>
       </ul>
     </div>
   </div>

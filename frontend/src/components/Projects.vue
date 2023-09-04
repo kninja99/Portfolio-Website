@@ -6,6 +6,9 @@
         v-for="(project, index) in featuredProjects"
         :key="index"
         :image="project.image"
+        :description="project.description"
+        :skills="project.skills"
+        :title="project.title"
       />
     </div>
   </div>
