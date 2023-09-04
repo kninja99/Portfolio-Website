@@ -18,8 +18,13 @@ export default {
       type: String,
       required: true,
     },
+    index: {
+      type: Number,
+      required: true,
+    },
   },
   data() {
+    console.log(this);
     return {
       img: this.image,
     };
@@ -34,8 +39,14 @@ export default {
     :style="{ backgroundImage: `url(./imgs/${img})` }"
   >
     <!-- project img container -->
+    <!-- change row start and end based off index -->
     <div
-      class="hidden my-12 px-10 py-5 md:block md:col-start-1 md:col-end-4 md:row-start-1 md:row-end-1"
+      class="hidden my-12 px-10 py-5 md:block md:row-start-1 md:row-end-1"
+      :class="
+        this.index % 2 === 0
+          ? 'md:col-start-1 md:col-end-4'
+          : 'md:col-start-3 md:col-end-6'
+      "
     >
       <div
         class="relative bg-gradient-to-tl from-light-blue to-dark-blue hover:cursor-pointer"
@@ -48,7 +59,12 @@ export default {
     </div>
     <!-- Project Details Container -->
     <div
-      class="text-white flex flex-col justify-center my-12 px-10 py-5 bg-dark-blue bg-opacity-60 md:col-start-3 md:col-end-6 md:row-start-1 md:row-end-1 md:items-end md:bg-opacity-0 md:p-0 md:py-6 hover:cursor-default"
+      class="text-white flex flex-col justify-center my-12 px-10 py-5 bg-dark-blue bg-opacity-60 md:row-start-1 md:row-end-1 md:bg-opacity-0 md:p-0 md:py-6 hover:cursor-default"
+      :class="
+        this.index % 2 === 0
+          ? 'md:col-start-3 md:col-end-6 md:items-end md:text-right'
+          : 'md:col-start-1 md:col-end-4'
+      "
     >
       <div class="my-4">
         <h3 class="text-light-blue mb-2">Featured Project</h3>
@@ -57,7 +73,7 @@ export default {
       <!-- Project description -->
       <div class="md:z-10">
         <p
-          class="md:bg-project-black md:p-5 md:bg-opacity-90 md:text-right md:text-sm md:rounded-md md:shadow-[6px_6px_10px_#000]"
+          class="md:bg-project-black md:p-5 md:bg-opacity-90 md:text-sm md:rounded-md md:shadow-[6px_6px_10px_#000]"
         >
           {{ description }}
         </p>
