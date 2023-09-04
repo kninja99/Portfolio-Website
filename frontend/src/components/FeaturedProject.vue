@@ -31,7 +31,7 @@ export default {
   <!-- Project card container (background for mobile devices render here) -->
   <div
     class="bg-center bg-no-repeat bg-cover md:!bg-none md:grid md:grid-cols-5 md:grid-rows-1"
-    :style="{ backgroundImage: `url(../assets/imgs/${img})` }"
+    :style="{ backgroundImage: `url(./imgs/${img})` }"
   >
     <!-- project img container -->
     <div
@@ -42,7 +42,7 @@ export default {
       >
         <img
           class="object-cover md:h-[100%] md:w-auto opacity-50 animate-fadeOut hover:animate-fadeIn"
-          :src="img"
+          :src="'./imgs/' + img"
         />
       </div>
     </div>
