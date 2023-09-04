@@ -1,16 +1,15 @@
 <script>
-import img from '../assets/imgs/Jet-Bot-Img.png';
 export default {
   name: 'FeaturedProject',
   props: {
-    project: {
-      type: Object,
-      required: false,
+    image: {
+      type: String,
+      required: true,
     },
   },
   data() {
     return {
-      img: img,
+      img: this.image,
     };
   },
 };
@@ -20,7 +19,7 @@ export default {
   <!-- Project card container (background for mobile devices render here) -->
   <div
     class="bg-center bg-no-repeat bg-cover md:!bg-none md:grid md:grid-cols-5 md:grid-rows-1"
-    :style="{ backgroundImage: `url(${img})` }"
+    :style="{ backgroundImage: `url(../assets/imgs/${img})` }"
   >
     <!-- project img container -->
     <div
