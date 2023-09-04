@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Self Driving RC Car",
+    "description": "An autonmous RC car that was built in a team of 4. The car is capable of self-driving and collects real-time data to detect traffic and road blockages. The important traffic and road blockage data will be sent to the cloud through the middleware. After the cloud recives this data it will attempt to calulate a new route for the car to take. The car will then recive the new route and continue on its way.",
+    "techStack": [
+      "Python",
+      "Machine Learning",
+      "Pub/Sub",
+      "Google CLoud",
+      "Arduino",
+      "C++"
+    ],
+    "image": "Jet-Bot-Img.png"
+  }
+]
