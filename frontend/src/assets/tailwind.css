@@ -16,6 +16,12 @@ ul li:before {
     color: #00b4d8;
 }
 
+.list-none li:before {
+    content: "";
+    padding-right: 0px;
+    color: #00b4d8;
+}
+
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;

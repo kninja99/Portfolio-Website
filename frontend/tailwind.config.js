@@ -13,6 +13,7 @@ module.exports = {
       'dark-blue': '#093a4a',
       'light-blue': '#00b4d8',
       'btn-blue': '#0c4d62',
+      'project-black': '#0c0c0d',
     },
     extend: {
       keyframes: {
@@ -51,6 +52,22 @@ module.exports = {
             opacity: 1,
           },
         },
+        fadeIn: {
+          '0%': {
+            opacity: '.5',
+          },
+          '100%': {
+            opacity: '1',
+          },
+        },
+        fadeOut: {
+          '0%': {
+            opacity: '1',
+          },
+          '100%': {
+            opacity: '.5',
+          },
+        },
       },
       animation: {
         shadowPop:
@@ -59,6 +76,8 @@ module.exports = {
         bgDrop: 'bgDrop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
         textFadeIn:
           'textFadeIn .5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+        fadeIn: 'fadeIn .2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+        fadeOut: 'fadeOut .2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
       },
     },
   },

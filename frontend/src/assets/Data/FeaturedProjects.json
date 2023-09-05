@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Self Driving RC Car",
+    "description": "An autonmous RC car that was built in a team of 4. The car is capable of self-driving and collects real-time data to detect traffic and road blockages. The important traffic and road blockage data will be sent to the cloud through the middleware. After the cloud recives this data it will attempt to calulate a new route for the car to take. The car will then recive the new route and continue on its way.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Pub/Sub",
+      "Google CLoud",
+      "Arduino",
+      "C++"
+    ],
+    "image": "Jet-Bot-Img.png"
+  },
+  {
+    "title": "Testing Center Application",
+    "description": "Built a full stack application in a team of 4 that allows 4 different types of users that can manage and book appointments for a testing center. The application was built so students could take test outside of class time while also ensuring a secure testing enviorment.",
+    "skills": [
+      "Vue.js",
+      "Django",
+      "Docker",
+      "PostgreSQL",
+      "SCRUM/Agile",
+      "Software Testing"
+    ],
+    "image": "TestingCenterApp.png"
+  },
+  {
+    "title": "ACM@UCR Web Portal",
+    "description": "Developed a club web portal for members of ACM@UCR to use. The web portal allows members to keep keep up to date with club events, view club resources, and schedule services. The web portal also allows club officers to manage club events, resources, and members.",
+    "skills": [
+      "React.js",
+      "Firebase",
+      "Docker",
+      "Tailwind CSS",
+      "SCRUM/Agile",
+      "Software Testing"
+    ],
+    "image": "AcmWebPortal.png"
+  }
+]
