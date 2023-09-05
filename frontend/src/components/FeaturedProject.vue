@@ -35,7 +35,7 @@ export default {
 <template>
   <!-- Project card container (background for mobile devices render here) -->
   <div
-    class="bg-center bg-no-repeat bg-cover my-12 md:!bg-none md:grid md:grid-cols-5 md:grid-rows-1"
+    class="bg-center bg-no-repeat bg-cover my-12 md:!bg-none md:grid md:grid-cols-5 md:grid-rows-1 md:items-center"
     :style="{ backgroundImage: `url(./imgs/${img})` }"
   >
     <!-- project img container -->
@@ -49,7 +49,7 @@ export default {
       "
     >
       <div
-        class="relative bg-gradient-to-tl from-light-blue to-dark-blue hover:cursor-pointer"
+        class="relative mt-10 bg-gradient-to-tl from-light-blue to-dark-blue hover:cursor-pointer"
       >
         <img
           class="object-cover md:h-[100%] md:w-auto opacity-50 animate-fadeOut hover:animate-fadeIn"
@@ -59,7 +59,7 @@ export default {
     </div>
     <!-- Project Details Container -->
     <div
-      class="text-white flex flex-col justify-center my-12 px-10 py-5 md:my-0 md:px-0 md:py-0 bg-dark-blue bg-opacity-60 md:row-start-1 md:row-end-1 md:bg-opacity-0 md:p-0 md:py-6 hover:cursor-default"
+      class="text-white flex flex-col justify-center my-12 px-10 py-5 md:my-0 md:px-0 md:py-0 bg-dark-blue bg-opacity-70 md:row-start-1 md:row-end-1 md:bg-opacity-0 md:p-0 md:py-6 hover:cursor-default"
       :class="
         this.index % 2 === 0
           ? 'md:col-start-3 md:col-end-6 md:items-end md:text-right'

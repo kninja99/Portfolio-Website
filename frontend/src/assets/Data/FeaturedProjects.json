@@ -13,16 +13,16 @@
     "image": "Jet-Bot-Img.png"
   },
   {
-    "title": "Self Driving RC Car",
-    "description": "An autonmous RC car that was built in a team of 4. The car is capable of self-driving and collects real-time data to detect traffic and road blockages. The important traffic and road blockage data will be sent to the cloud through the middleware. After the cloud recives this data it will attempt to calulate a new route for the car to take. The car will then recive the new route and continue on its way.",
+    "title": "Testing Center Application",
+    "description": "Built a full stack application in a team of 4 that allows 4 different types of users that can manage and book appointments for a testing center. The application was built so students could take test outside of class time while also ensuring a secure testing enviorment.",
     "skills": [
-      "Python",
-      "Machine Learning",
-      "Pub/Sub",
-      "Google CLoud",
-      "Arduino",
-      "C++"
+      "Vue.js",
+      "Django",
+      "Docker",
+      "PostgreSQL",
+      "SCRUM/Agile",
+      "Software Testing"
     ],
-    "image": "Jet-Bot-Img.png"
+    "image": "TestingCenterApp.png"
   }
 ]
