@@ -24,5 +24,18 @@
       "Software Testing"
     ],
     "image": "TestingCenterApp.png"
+  },
+  {
+    "title": "ACM@UCR Web Portal",
+    "description": "Developed a club web portal for members of ACM@UCR to use. The web portal allows members to keep keep up to date with club events, view club resources, and schedule services. The web portal also allows club officers to manage club events, resources, and members.",
+    "skills": [
+      "React.js",
+      "Firebase",
+      "Docker",
+      "Tailwind CSS",
+      "SCRUM/Agile",
+      "Software Testing"
+    ],
+    "image": "AcmWebPortal.png"
   }
 ]
