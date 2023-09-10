@@ -68,17 +68,26 @@ module.exports = {
             opacity: '.5',
           },
         },
+        slideRightToLeft: {
+          '0%': {
+            transform: 'translateX(100%)',
+          },
+          '100%': {
+            transform: 'translateX(0)',
+          },
+        },
       },
-      animation: {
-        shadowPop:
-          'shadowPop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
-        imgPop: 'imgPop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
-        bgDrop: 'bgDrop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
-        textFadeIn:
-          'textFadeIn .5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
-        fadeIn: 'fadeIn .2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
-        fadeOut: 'fadeOut .2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
-      },
+    },
+    animation: {
+      shadowPop: 'shadowPop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+      imgPop: 'imgPop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+      bgDrop: 'bgDrop 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+      textFadeIn:
+        'textFadeIn .5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+      fadeIn: 'fadeIn .2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+      fadeOut: 'fadeOut .2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+      slideRightToLeft:
+        'slideRightToLeft .4s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
     },
   },
   plugins: [],
