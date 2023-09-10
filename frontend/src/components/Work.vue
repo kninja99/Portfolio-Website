@@ -1,6 +1,6 @@
 <template>
   <div class="mt-20 px-12 mb-10 w-screen flex flex-col items-center">
-    <div class="w-full max-w-3xl">
+    <div class="w-full max-w-3xl" id="work">
       <SectionHeader title="My Experiance" />
       <div class="mt-12 flex flex-col sm:flex-row justify-between">
         <!-- Company list -->

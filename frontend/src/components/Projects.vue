@@ -1,5 +1,8 @@
 <template>
-  <div class="mt-20 px-8 mb-10 w-screen flex flex-col items-center">
+  <div
+    class="mt-20 px-8 mb-10 w-screen flex flex-col items-center"
+    id="projects"
+  >
     <div class="w-full max-w-4xl">
       <SectionHeader title="Things I have Built" />
       <FeaturedProject
