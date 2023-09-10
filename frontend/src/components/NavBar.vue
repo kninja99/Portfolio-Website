@@ -30,13 +30,13 @@ export default {
   <div class="flex flex-col">
     <!-- mobile nav btn -->
     <button
-      class="h-8 w-8 self-end fixed top-7 z-10 md:hidden"
+      class="h-8 w-8 self-end fixed top-7 z-[13] md:hidden"
       @click="toggleMobileNav"
     >
       <img src="../assets/imgs/mobile-nav-btn.svg" alt="navBtn" />
     </button>
     <nav
-      class="absolute bg-project-black/70 right-0 top-0 py-14 h-[100%] w-[60%] animate-slideLeftToRight sm:w-[40%] flex hidden flex-col bg:project-black md:flex md:flex-row md:relative md:top-0 md:right-0 md:bg-dark-gray md:h-auto md:w-auto md:py-0 md:animate-[none]"
+      class="absolute bg-project-black/80 right-0 top-0 py-14 h-[100%] w-[60%] z-[12] animate-slideLeftToRight sm:w-[40%] flex hidden flex-col bg:project-black md:flex md:flex-row md:relative md:top-0 md:right-0 md:bg-dark-gray md:h-auto md:w-auto md:py-0 md:animate-[none]"
     >
       <NavBtn btnText="About" btnLink="/" />
       <NavBtn btnText="Work" btnLink="/work" />
