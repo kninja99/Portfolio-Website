@@ -76,6 +76,14 @@ module.exports = {
             transform: 'translateX(0)',
           },
         },
+        slideLeftToRight: {
+          '0%': {
+            transform: 'translateX(0)',
+          },
+          '100%': {
+            transform: 'translateX(100%)',
+          },
+        },
       },
     },
     animation: {
@@ -88,6 +96,8 @@ module.exports = {
       fadeOut: 'fadeOut .2s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
       slideRightToLeft:
         'slideRightToLeft .4s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+      slideLeftToRight:
+        'slideLeftToRight .4s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
     },
   },
   plugins: [],

@@ -9,7 +9,18 @@ export default {
     // toggle mobile nav
     toggleMobileNav() {
       const nav = document.querySelector('nav');
-      nav.classList.toggle('hidden');
+      // toggle sliding animation
+      nav.classList.toggle('animate-slideLeftToRight');
+      nav.classList.toggle('animate-slideRightToLeft');
+      // check if class list has hidden class
+      if (nav.classList.contains('hidden')) {
+        nav.classList.toggle('hidden');
+      } else {
+        // timer that fixes slide right to left animation
+        setTimeout(() => {
+          nav.classList.toggle('hidden');
+        }, 400);
+      }
     },
   },
 };
@@ -25,7 +36,7 @@ export default {
       <img src="../assets/imgs/mobile-nav-btn.svg" alt="navBtn" />
     </button>
     <nav
-      class="absolute bg-project-black/70 right-0 top-0 py-14 h-[100%] w-[60%] animate-slideRightToLeft sm:w-[40%] flex hidden flex-col bg:project-black md:flex md:flex-row md:relative md:top-0 md:right-0 md:bg-dark-gray md:h-auto md:w-auto md:py-0 md:animate-[none]"
+      class="absolute bg-project-black/70 right-0 top-0 py-14 h-[100%] w-[60%] animate-slideLeftToRight sm:w-[40%] flex hidden flex-col bg:project-black md:flex md:flex-row md:relative md:top-0 md:right-0 md:bg-dark-gray md:h-auto md:w-auto md:py-0 md:animate-[none]"
     >
       <NavBtn btnText="About" btnLink="/" />
       <NavBtn btnText="Work" btnLink="/work" />
