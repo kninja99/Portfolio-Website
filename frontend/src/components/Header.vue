@@ -1,6 +1,6 @@
 <!-- use vue component template -->
 <template>
-  <div class="flex p-4 justify-between">
+  <div class="flex p-4 justify-between items-center">
     <!-- website logo (kyle_logo) -->
     <img src="../assets/imgs/Kyle_Logo.svg" alt="kyle_logo" />
     <!-- quick nav btns for single page applications -->
