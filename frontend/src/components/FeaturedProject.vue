@@ -24,7 +24,6 @@ export default {
     },
   },
   data() {
-    console.log(this);
     return {
       img: this.image,
     };
