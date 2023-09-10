@@ -14,6 +14,7 @@
         :skills="project.skills"
         :title="project.title"
       />
+      <OtherProjects />
     </div>
   </div>
 </template>
@@ -21,12 +22,15 @@
 <script>
 import SectionHeader from './SectionHeader.vue';
 import FeaturedProject from './FeaturedProject.vue';
+import OtherProjects from './OtherProjects.vue';
+// data reading from json file
 import FeaturedProjects from '../assets/Data/FeaturedProjects.json';
 export default {
   name: 'Projects',
   components: {
     SectionHeader,
     FeaturedProject,
+    OtherProjects,
   },
   data() {
     return {
