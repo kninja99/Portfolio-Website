@@ -11,11 +11,21 @@
       >
     </div>
     <!-- Projects -->
+    <div class="flex flex-wrap mt-8 justify-center items-center w-[80%]">
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
+    </div>
   </div>
 </template>
 
 <script>
+import ProjectCard from './ProjectCard.vue';
 export default {
   name: 'OtherProjects',
+  components: {
+    ProjectCard,
+  },
 };
 </script>
