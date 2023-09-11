@@ -1,0 +1,8 @@
+[
+  {
+    "title": "Embedded Trivia Game",
+    "description": "A trivia game built on a Arduino Uno using a state machine design patern and a variety of different components.",
+    "skills": ["C++", "Embedded Design", "Arduino"],
+    "link": "https://github.com/kninja99/Embedded-System-Trivia-Game"
+  }
+]

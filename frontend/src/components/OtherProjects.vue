@@ -12,20 +12,31 @@
     </div>
     <!-- Projects -->
     <div class="flex flex-wrap mt-8 justify-center items-center w-[80%]">
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
+      <ProjectCard
+        v-for="(project, index) in projects"
+        :key="index"
+        :title="project.title"
+        :description="project.description"
+        :skills="project.skills"
+        :link="project.link"
+        :index="index"
+      />
     </div>
   </div>
 </template>
 
 <script>
 import ProjectCard from './ProjectCard.vue';
+import projectData from '../assets/Data/ProjectData.json';
 export default {
   name: 'OtherProjects',
   components: {
     ProjectCard,
+  },
+  data() {
+    return {
+      projects: projectData,
+    };
   },
 };
 </script>
