@@ -30,6 +30,7 @@
     "description": "Developed a club web portal for members of ACM@UCR to use. The web portal allows members to keep keep up to date with club events, view club resources, and schedule services. The web portal also allows club officers to manage club events, resources, and members.",
     "skills": [
       "React.js",
+      "Next.js",
       "Firebase",
       "Docker",
       "Tailwind CSS",

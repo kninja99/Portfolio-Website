@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Embedded Trivia Game",
+    "description": "A trivia game built on a Arduino Uno using a state machine design patern and a variety of different components.",
+    "skills": ["C++", "Embedded Design", "Arduino"],
+    "link": "https://github.com/kninja99/Embedded-System-Trivia-Game"
+  },
+  {
+    "title": "Stock News Bot",
+    "description": "A small python application that will scrape the web for up to date stock news and display it to the user so you don't miss out on any important news.",
+    "skills": ["Python", "JavaScript", "HTML", "CSS"],
+    "link": "https://github.com/kninja99/Stonk-Bot-V1"
+  },
+  {
+    "title": "Small French Compiler",
+    "description": "A small compiler that uses french key words to create a program that will then be compiled into assembly code.",
+    "skills": ["C++", "Assembly", "Regex"],
+    "link": "https://github.com/kninja99/Small-French-Compiler"
+  },
+  {
+    "title": "Portfolio Website",
+    "description": "A single page web application that is used to display my projects and skills to potential employers.",
+    "skills": ["JavaScript", "Vue.js", "Tailwind"],
+    "link": ""
+  },
+  {
+    "title": "CSS Sorter",
+    "description": "A project that was inspired by a work task. This project is a python script that will sort a css file into alphabetical order.",
+    "skills": ["Python", "CSS"],
+    "link": "https://github.com/kninja99/Css-sorter"
+  },
+  {
+    "title": "Console Chess Game",
+    "description": "Built a console chess game in a team of 4 using a variety of different design patterns and best practices.",
+    "skills": ["C++", "Agile", "Unit Testing"],
+    "link": ""
+  }
+]

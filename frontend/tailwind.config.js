@@ -84,6 +84,22 @@ module.exports = {
             transform: 'translateX(100%)',
           },
         },
+        cardHoverUp: {
+          '0%': {
+            transform: 'translateY(0)',
+          },
+          '100%': {
+            transform: 'translateY(-10px)',
+          },
+        },
+        cardHoverDown: {
+          '0%': {
+            transform: 'translateY(-10px)',
+          },
+          '100%': {
+            transform: 'translateY(0)',
+          },
+        },
       },
     },
     animation: {
@@ -98,6 +114,10 @@ module.exports = {
         'slideRightToLeft .4s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
       slideLeftToRight:
         'slideLeftToRight .4s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+      cardHoverUp:
+        'cardHoverUp .3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
+      cardHoverDown:
+        'cardHoverDown .3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both',
     },
   },
   plugins: [],

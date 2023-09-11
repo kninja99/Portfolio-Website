@@ -14,8 +14,8 @@
         :skills="project.skills"
         :title="project.title"
       />
-      <OtherProjects />
     </div>
+    <OtherProjects />
   </div>
 </template>
 
