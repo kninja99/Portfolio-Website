@@ -72,13 +72,15 @@ export default {
       <!-- Project description -->
       <div class="md:z-10">
         <p
-          class="text-sm md:bg-project-black md:p-5 md:bg-opacity-90 md:rounded-md md:shadow-[6px_6px_10px_#000]"
+          class="text-sm text-dark-white md:bg-project-black md:p-5 md:bg-opacity-90 md:rounded-md md:shadow-[6px_6px_10px_#000]"
         >
           {{ description }}
         </p>
       </div>
       <!-- Project skills -->
-      <ul class="list-none flex flex-wrap text-sm mt-4 z-10">
+      <ul
+        class="list-none flex flex-wrap text-sm mt-4 z-10 text-dark-white md:justify-center md:bg-project-black/80 md:rounded-md md:shadow-[6px_6px_10px_#000]"
+      >
         <!-- create a li for each skill in skills prop -->
         <li v-for="(skill, index) in skills" :key="index" class="m-2">
           {{ skill }}
