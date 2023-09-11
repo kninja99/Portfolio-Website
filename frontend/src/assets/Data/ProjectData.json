@@ -4,5 +4,11 @@
     "description": "A trivia game built on a Arduino Uno using a state machine design patern and a variety of different components.",
     "skills": ["C++", "Embedded Design", "Arduino"],
     "link": "https://github.com/kninja99/Embedded-System-Trivia-Game"
+  },
+  {
+    "title": "Stock News Bot",
+    "description": "A small python application that will scrape the web for up to date stock news and display it to the user so you don't miss out on any important news.",
+    "skills": ["Python", "JavaScript", "HTML", "CSS"],
+    "link": "https://github.com/kninja99/Stonk-Bot-V1"
   }
 ]
