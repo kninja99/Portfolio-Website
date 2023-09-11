@@ -21,7 +21,7 @@
     "title": "Portfolio Website",
     "description": "A single page web application that is used to display my projects and skills to potential employers.",
     "skills": ["JavaScript", "Vue.js", "Tailwind"],
-    "link": ""
+    "link": "https://github.com/kninja99/Portfolio-Website"
   },
   {
     "title": "CSS Sorter",
