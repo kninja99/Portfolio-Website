@@ -1,7 +1,7 @@
 <template>
   <a :href="link" target="_blank" @click="cardClickEvent">
     <div
-      class="w-[300px] h-[300px] bg-project-black/90 rounded-md shadow-[6px_6px_10px_#000] flex flex-col justify-between mx-4 my-6 flex-1 basis-1/3"
+      class="w-[300px] h-[300px] bg-project-black/90 rounded-md shadow-[6px_6px_10px_#000] flex flex-col justify-between mx-4 my-6 flex-1 basis-1/3 hover:animate-cardHoverUp animate-cardHoverDown"
     >
       <!-- header for icon -->
       <div class="py-5 mx-5">
