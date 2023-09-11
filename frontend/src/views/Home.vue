@@ -5,6 +5,7 @@
     <About />
     <Work />
     <Projects />
+    <ContactForm />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import Landing from '../components/Landing.vue';
 import About from '../components/About.vue';
 import Work from '../components/Work.vue';
 import Projects from '../components/Projects.vue';
+import ContactForm from '../components/ContactForm.vue';
 export default {
   name: 'App',
   components: {
@@ -23,6 +25,7 @@ export default {
     About,
     Work,
     Projects,
+    ContactForm,
   },
 };
 </script>
