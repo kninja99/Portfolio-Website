@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center">
+  <div class="flex flex-col justify-center items-center w-[80%] max-w-[1300px]">
     <!-- Section header -->
     <div class="flex flex-col justify-center items-center">
       <h3 class="text-white text-2xl md:text-3xl">Other Noteworthy Projects</h3>
@@ -11,7 +11,7 @@
       >
     </div>
     <!-- Projects -->
-    <div class="flex flex-wrap mt-8 justify-center items-center w-[80%]">
+    <div class="flex flex-wrap mt-8 justify-center items-center">
       <ProjectCard
         v-for="(project, index) in projects"
         :key="index"

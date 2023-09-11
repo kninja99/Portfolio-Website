@@ -10,5 +10,11 @@
     "description": "A small python application that will scrape the web for up to date stock news and display it to the user so you don't miss out on any important news.",
     "skills": ["Python", "JavaScript", "HTML", "CSS"],
     "link": "https://github.com/kninja99/Stonk-Bot-V1"
+  },
+  {
+    "title": "Small French Compiler",
+    "description": "A small compiler that uses french key words to create a program that will then be compiled into assembly code.",
+    "skills": ["C++", "Make", "Assembly", "Regex"],
+    "link": "https://github.com/kninja99/Small-French-Compiler"
   }
 ]
