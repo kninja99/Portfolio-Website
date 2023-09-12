@@ -14,6 +14,7 @@ module.exports = {
       'light-blue': '#00b4d8',
       'btn-blue': '#0c4d62',
       'project-black': '#0c0c0d',
+      'error-red': '#ff3333',
     },
     extend: {
       keyframes: {
