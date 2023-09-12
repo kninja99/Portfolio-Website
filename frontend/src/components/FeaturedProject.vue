@@ -72,10 +72,14 @@ export default {
     >
       <div class="my-4">
         <h3 class="text-light-blue mb-2">Featured Project</h3>
-        <a :href="link" target="_blank">
-          <h2 class="text-xl hover:text-light-blue">
+        <a :href="link" target="_blank" class="group relative">
+          <h2 class="text-xl inline">
             {{ title }}
           </h2>
+          <!-- underline animation -->
+          <span
+            class="absolute inset-x-0 bottom-0 h-0.5 bg-light-blue transform scale-x-0 group-hover:scale-x-100 transition-transform origin-middle"
+          ></span>
         </a>
       </div>
       <!-- Project description -->
