@@ -13,6 +13,7 @@
         :description="project.description"
         :skills="project.skills"
         :title="project.title"
+        :link="project.link"
       />
     </div>
     <OtherProjects />
