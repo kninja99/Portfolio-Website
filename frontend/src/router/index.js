@@ -1,5 +1,5 @@
 //import Vue from 'vue';
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import { createApp } from 'vue';
 import App from '../App.vue';
 import Home from '../views/Home.vue';
@@ -30,7 +30,7 @@ const routes = [
 
 // creating new router
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHashHistory(),
   routes,
 });
 
