@@ -22,6 +22,10 @@ export default {
       type: Number,
       required: true,
     },
+    link: {
+      type: String,
+      required: true,
+    },
   },
   data() {
     return {
@@ -50,24 +54,29 @@ export default {
       <div
         class="relative mt-10 bg-gradient-to-tl from-light-blue to-dark-blue hover:cursor-pointer"
       >
-        <img
-          class="object-cover md:h-[100%] md:w-auto opacity-50 animate-fadeOut hover:animate-fadeIn"
-          :src="'./imgs/' + img"
-        />
+        <a :href="link" target="_blank"
+          ><img
+            class="object-cover md:h-[100%] md:w-auto opacity-50 animate-fadeOut hover:animate-fadeIn"
+            :src="'./imgs/' + img"
+        /></a>
       </div>
     </div>
     <!-- Project Details Container -->
     <div
-      class="text-white flex flex-col justify-center my-12 px-10 py-5 md:my-0 md:px-0 md:py-0 bg-dark-blue bg-opacity-70 md:row-start-1 md:row-end-1 md:bg-opacity-0 md:p-0 md:py-6 hover:cursor-default"
+      class="text-white flex flex-col justify-center my-12 px-10 py-5 md:my-0 md:px-0 md:py-0 bg-dark-blue bg-opacity-70 md:row-start-1 md:row-end-1 md:bg-opacity-0 md:p-0 md:py-6 hover:cursor-default items-start"
       :class="
         this.index % 2 === 0
           ? 'md:col-start-3 md:col-end-6 md:items-end md:text-right'
-          : 'md:col-start-1 md:col-end-4'
+          : 'md:col-start-1 md:col-end-4 md:text-left md:items-start'
       "
     >
       <div class="my-4">
         <h3 class="text-light-blue mb-2">Featured Project</h3>
-        <h2 class="text-xl">{{ title }}</h2>
+        <a :href="link" target="_blank">
+          <h2 class="text-xl hover:text-light-blue">
+            {{ title }}
+          </h2>
+        </a>
       </div>
       <!-- Project description -->
       <div class="md:z-10">

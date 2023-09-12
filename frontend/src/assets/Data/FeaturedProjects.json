@@ -10,7 +10,8 @@
       "Arduino",
       "C++"
     ],
-    "image": "Jet-Bot-Img.png"
+    "image": "Jet-Bot-Img.png",
+    "link": "https://github.com/kninja99/Self-Driving-RC-Car"
   },
   {
     "title": "Testing Center Application",
@@ -23,7 +24,8 @@
       "SCRUM/Agile",
       "Software Testing"
     ],
-    "image": "TestingCenterApp.png"
+    "image": "TestingCenterApp.png",
+    "link": "https://github.com/kninja99/UCR-Testing-Center-Application"
   },
   {
     "title": "ACM@UCR Web Portal",
@@ -37,6 +39,7 @@
       "SCRUM/Agile",
       "Software Testing"
     ],
-    "image": "AcmWebPortal.png"
+    "image": "AcmWebPortal.png",
+    "link": "https://github.com/kninja99/ACM-membership-portal"
   }
 ]
