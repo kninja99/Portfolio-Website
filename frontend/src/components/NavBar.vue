@@ -15,6 +15,10 @@ export default {
       // check if class list has hidden class
       if (nav.classList.contains('hidden')) {
         nav.classList.toggle('hidden');
+        // timer that fixes overflowing issue on mobile devices
+        setTimeout(() => {
+          nav.classList.toggle('overflow-hidden');
+        }, 400);
       } else {
         // timer that fixes slide right to left animation
         setTimeout(() => {
