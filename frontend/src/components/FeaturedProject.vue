@@ -78,7 +78,7 @@ export default {
           </h2>
           <!-- underline animation -->
           <span
-            class="absolute inset-x-0 bottom-0 h-0.5 bg-light-blue transform scale-x-0 group-hover:scale-x-100 transition-transform origin-middle"
+            class="absolute inset-x-0 bottom-[-4px] h-0.5 bg-light-blue transform scale-x-0 group-hover:scale-x-100 transition-transform origin-middle"
           ></span>
         </a>
       </div>
