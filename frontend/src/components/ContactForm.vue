@@ -17,7 +17,8 @@
       >
         <form
           class="flex flex-col items-center w-[100%]"
-          action=""
+          action="https://formspree.io/f/mnqkzanz"
+          method="POST"
           @submit="formSubmit"
         >
           <p
@@ -106,8 +107,17 @@ export default {
       } else {
         this.form.errors[2] = null;
       }
-      // submit form
-      e.preventDefault();
+      // check to see if there are any errors
+      if (
+        this.form.errors[0] == null &&
+        this.form.errors[1] == null &&
+        this.form.errors[2] == null
+      ) {
+        // submit form and then clear form
+        return;
+      } else {
+        e.preventDefault();
+      }
     },
     validEmail: function (email) {
       var re =
