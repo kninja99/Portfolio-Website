@@ -10,6 +10,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+html,
+body {
+    width: 100lvw;
+}
+
 ul li:before {
     content: "▹";
     padding-right: 8px;

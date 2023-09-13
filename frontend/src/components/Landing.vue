@@ -18,7 +18,7 @@
         seeking to enhance my technical knowledge and solve complex problems as
         a software engineer.
       </p>
-      <router-link to="/resume" target="_blank">
+      <router-link to="/Kyle_Damschen_Resume.pdf" target="_blank">
         <button
           class="text-light-blue border-solid border-2 border-light-blue p-2 rounded-2xl w-32 my-10 hover:animate-shadowPop"
         >
