@@ -1,7 +1,7 @@
 [
   {
     "title": "Self Driving RC Car",
-    "description": "An autonmous RC car that was built in a team of 4. The car is capable of self-driving and collects real-time data to detect traffic and road blockages. The important traffic and road blockage data will be sent to the cloud through the middleware. After the cloud recives this data it will attempt to calulate a new route for the car to take. The car will then recive the new route and continue on its way.",
+    "description": "An autonmous RC car that was built in a team of 4. The car is capable of self-driving and collects real-time data to detect traffic and road blockages. The important traffic and road blockage data will be sent to the cloud through the middleware. After the cloud receives this data it will attempt to calulate a new route for the car to take. The car will then receive the new route and continue on its way.",
     "skills": [
       "Python",
       "Machine Learning",
@@ -15,7 +15,7 @@
   },
   {
     "title": "Testing Center Application",
-    "description": "Built a full stack application in a team of 4 that allows 4 different types of users that can manage and book appointments for a testing center. The application was built so students could take test outside of class time while also ensuring a secure testing enviorment.",
+    "description": "Built a full stack application in a team of 4 that allows 4 different types of users that can manage and book appointments for a testing center. The application was built so students could take tests outside of class time while also ensuring a secure testing enviorment.",
     "skills": [
       "Vue.js",
       "Django",
@@ -29,7 +29,7 @@
   },
   {
     "title": "ACM@UCR Web Portal",
-    "description": "Developed a club web portal for members of ACM@UCR to use. The web portal allows members to keep keep up to date with club events, view club resources, and schedule services. The web portal also allows club officers to manage club events, resources, and members.",
+    "description": "Developed a club web portal for members of ACM@UCR to use. The web portal allows members to keep up to date with club events, view club resources, and schedule services. The web portal also allows club officers to manage club events, resources, and members.",
     "skills": [
       "React.js",
       "Next.js",

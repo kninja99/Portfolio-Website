@@ -19,7 +19,7 @@
         <p class="mb-3">
           Currently I am working with the Citrus Clonal Protection Program at UC
           Riverside, where I am taking advantage of technology to enhance lab
-          teams performance and their experiance. I have also worked with
+          teams performance and their experience. I have also worked with
           ACM@UCR as a software developer, where I have been able to work on a
           variety of projects and gain valuable experience.
         </p>
