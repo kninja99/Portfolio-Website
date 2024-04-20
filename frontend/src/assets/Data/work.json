@@ -1,9 +1,20 @@
 [
   {
+    "Title": "Software Engineer I",
+    "Company": "Raytheon (RTX)",
+    "startDate": "10/2023",
+    "endDate": "Present",
+    "Description": [
+      "Working on updating and maintaining an internal middleware common product using C and C++ to increase development speed and code reusability.",
+      "Performing campaign data analysis on key strategic scenarios using Python which led to our data being presented to the board of directors in order to help direct business decisions.",
+      "Researched and documented how PowerBI can be used in a collaborative GIT environment within Raytheon teams."
+    ]
+  },
+  {
     "Title": "Full Stack Developer",
     "Company": "Citrus Clonal Protection Program",
     "startDate": "09/2022",
-    "endDate": "Present",
+    "endDate": "10/2023",
     "Description": [
       "Developed a full stack web application which led to a 50% improvement in lab team input and retrieval time using JavaScript, JQuery, HTML, CSS, Microsoft SQL, Express.JS, and Node.JS.",
       "Revamped a web application achieving 100% UI responsiveness using HTML, CSS, and JavaScript.",
@@ -19,16 +30,6 @@
       "Developed a club web portal for members of ACM@UCR using React, Next.js, Firebase, Agile Methodologies, and Tailwind CSS to provide an easy way for members to keep up to date with club events and request services that the club offers.",
       "Mentored Freshmen and Sophomore students in the club to help them learn new technologies that were currently being used in club projects.",
       "Participated in code reviews to ensure that code was up to club standards and to help mentor other developers."
-    ]
-  },
-  {
-    "Title": "Notary Clerk",
-    "Company": "UPS Store",
-    "startDate": "11/2019",
-    "endDate": "09/2022",
-    "Description": [
-      "Acheived 99% customer satisfaction for new and existing customers using communication skills and putting the customer first",
-      "Led my store in notary's performed"
     ]
   }
 ]
