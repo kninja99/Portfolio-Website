@@ -9,19 +9,15 @@
       </h1>
       <!-- <h1>I build things through technology.</h1> -->
       <p class="text-dark-white text-base lg:text-lg">
-        I'm a career motivated software engineer that is currently working on a
-        variety of projects with the
-        <a class="text-light-blue underline"
-          >Citrus Clonal Protection Program</a
-        >
-        to increase productivity of lab teams through technology. I am currently
+        I'm a career motivated software engineer that is currently working at
+        <a class="text-light-blue underline">Raytheon (RTX)</a>
+        maintaing and developing internal common product middleware tools. I am currently
         seeking to enhance my technical knowledge and solve complex problems as
         a software engineer.
       </p>
       <router-link to="/Kyle_Damschen_Resume.pdf" target="_blank">
         <button
-          class="text-light-blue border-solid border-2 border-light-blue p-2 rounded-2xl w-32 my-10 hover:animate-shadowPop"
-        >
+          class="text-light-blue border-solid border-2 border-light-blue p-2 rounded-2xl w-32 my-10 hover:animate-shadowPop">
           Resume
         </button>
       </router-link>
